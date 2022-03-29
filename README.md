@@ -48,14 +48,5 @@ Database: Postgres
 https://euphonious-khapse-960964.netlify.app/
 <h1>Login</h1>
 <p> As a user: email: a@a.com pass: a. As a chef: email:gordon@gmail.com pass:gordon1234</p>
-<br />
-<h1>Homepage</h1>
-<img src="./Homepage.png" width="350" title="Homepage">
-<h1>Detail page</h1>
-<img src="./DetailsPage.png" width="350" title="DetailsPage">
-<h1>Events page</h1>
-<img src="./Eventspage.png" width="350" title="EventsPage">
-<h1>Menu chef page</h1>
-<img src="./Recipes.png" width="350" title="RecipesPage">
 </div>
 
