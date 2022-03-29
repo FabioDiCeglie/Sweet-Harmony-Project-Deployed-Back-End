@@ -1,0 +1,110 @@
+"use strict";
+
+module.exports = {
+  up: async (queryInterface, Sequelize) => {
+    await queryInterface.bulkInsert(
+      "bookings",
+      [
+        {
+          dates: "20-03-2022",
+          sTime: "10:00",
+          eTime: "14:00",
+          name: "Fabio",
+          email: "fabio@hotmail.com",
+          phone: "395454212",
+          informations: "",
+          isBooked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          chefId: 1,
+        },
+        {
+          dates: "27-03-2022",
+          sTime: "18:00",
+          eTime: "22:00",
+          name: "Michele",
+          email: "michele@hotmail.com",
+          phone: "38124353522",
+          informations:
+            "Hi, I would like to have different an asian menu, is that possible? let's stay in contact and contact me on email please!",
+          isBooked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          chefId: 2,
+        },
+        {
+          dates: "28-03-2022",
+          sTime: "18:00",
+          eTime: "22:00",
+          name: "Danny",
+          email: "danny@hotmail.com",
+          phone: "381438522",
+          informations:
+            "Hi,I would like to have some more information, please contact me on whatsapp!",
+          isBooked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          chefId: 3,
+        },
+        {
+          dates: "27-03-2022",
+          sTime: "18:00",
+          eTime: "22:00",
+          name: "Lucas",
+          email: "lucas@hotmail.com",
+          phone: "381442522",
+          informations: "",
+          isBooked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          chefId: 4,
+        },
+        {
+          dates: "28-03-2022",
+          sTime: "18:00",
+          eTime: "22:00",
+          name: "Miky",
+          email: "miky@hotmail.com",
+          phone: "3284442522",
+          informations: "",
+          isBooked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          chefId: 5,
+        },
+        {
+          dates: "28-03-2022",
+          sTime: "18:00",
+          eTime: "22:00",
+          name: "Nick",
+          email: "nick@hotmail.com",
+          phone: "3244442522",
+          informations: "",
+          isBooked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          chefId: 6,
+        },
+        {
+          dates: "28-03-2022",
+          sTime: "18:00",
+          eTime: "22:00",
+          name: "Test",
+          email: "test@test.com",
+          phone: "3244442522",
+          informations: "",
+          isBooked: true,
+          createdAt: new Date(),
+          updatedAt: new Date(),
+          chefId: 1,
+          userBookingId: 1,
+        },
+      ],
+      {}
+    );
+  },
+
+  down: async (queryInterface, Sequelize) => {
+    await queryInterface.bulkDelete("bookings", null, {});
+  },
+};
