@@ -1,6 +1,6 @@
 {
   "development": {
-    "url": "postgres://qkvztocpsgbttw:ff8ae5fb8cc4ac24762663b69478a4dc32d2eea9fd9f267e5b24434a78fcd666@ec2-52-212-228-71.eu-west-1.compute.amazonaws.com:5432/d922i7shvtpt5n",
+    "url": "postgres://qmpbhugw:A7IEl0MaKTl5vcXZGRRrpeNAFaByj4_p@abul.db.elephantsql.com/qmpbhugw",
     "dialect": "postgres"
   },
   "test": {
@@ -13,6 +13,10 @@
   },
   "production": {
     "use_env_variable": "DATABASE_URL",
-    "dialect": "postgres"
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
