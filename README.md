@@ -1,5 +1,9 @@
 <h1>This app is a place where a user can enjoy his personal chef at home!</h1>
 <br />
+<p><strong>Problem: </strong> In corona time it was really difficult to enjoy an experience in a restaurant, and a lot of chef lost them job because of that.<br />
+For this I create an app that resolve that problem, indeed with that you have the opportunity to book you personal chef at home and enjoy an amazing experience!
+</p>
+
 <p>In only one week of Codaisseur Bootcamp I'm really happy on what I achieved for this Full-Stack App!</p>
 
 <h1>Wireframes:</h1>
@@ -20,7 +24,7 @@ Languages: Javascript
 <br />
 Frontend Libraries: React - Redux - Axios
 <br />
-Backend: Node & Express & Sequelize
+Backend: Node - Express - Sequelize
 <br />
 Database: Postgres
 
@@ -39,14 +43,22 @@ Database: Postgres
 <br />
 1. Create a chat where a chef and user can speak about the booking!
 <br />
-2. Create an email service that also if I'm not a user(Good UX!)I'm able to receive information about the booking with emails!
+2. Create an email service that also if I'm not a user I'm able to receive information about the booking with emails!
 </p>
 </div>
 
 <div>
 <h1>Website:</h1>
-https://euphonious-khapse-960964.netlify.app/
+https://sweetharmony.netlify.app/
 <h1>Login</h1>
 <p> As a user: email: a@a.com pass: a. As a chef: email:gordon@gmail.com pass:gordon1234</p>
+<br />
+<h1>Homepage</h1>
+<img src="./Homepage.png" width="350" title="Homepage">
+<h1>Detail page</h1>
+<img src="./DetailsPage.png" width="350" title="DetailsPage">
+<h1>Events page</h1>
+<img src="./Eventspage.png" width="350" title="EventsPage">
+<h1>Menu chef page</h1>
+<img src="./Recipes.png" width="350" title="RecipesPage">
 </div>
-
